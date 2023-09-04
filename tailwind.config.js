@@ -40,10 +40,6 @@ module.exports = {
         '3/4': '75%',
         '1/1': '100%',
       },
-      fontFamily: {
-        inter: ['var(--font-inter)', 'sans-serif'],
-        'architects-daughter': ['var(--font-architects-daughter)', 'sans-serif']
-      },
       fontSize: {
         xs: '0.75rem',
         sm: '0.875rem',
