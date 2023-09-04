@@ -148,7 +148,7 @@ export const LeftSide = () => {
                 <p className="dark:text-white break-all">Istanbul - Turkey</p>
               </div>
             </div>
-            
+
             <div className="flex py-2.5 border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
               <span className="flex-shrink-0 socialbtn www bg-white dark:bg-black text-[#FD7590] shadow-md">
                 <svg
@@ -173,7 +173,7 @@ export const LeftSide = () => {
                     className="hover:text-[#FA5252] duration-300 transition"
                     href="mailto:zainab.salah.m@outlook.com"
                   >
-                  zainab.salah.m@outlook.com
+                    zainab.salah.m@outlook.com
                   </a>
                 </p>
               </div>

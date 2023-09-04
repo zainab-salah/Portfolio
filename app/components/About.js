@@ -1,7 +1,4 @@
-import Image from "next/image";
 import React from "react";
-import DetailsCard from "./DetailsCard";
-import Resume from "./Resume";
 
 export default function About() {
   return (
@@ -11,14 +8,15 @@ export default function About() {
         <div className="col-span-12 space-y-2.5">
           <div className="lg:mr-16">
             <p className="text-gray-lite dark:text-color-910 leading-7">
-              I'm Creative Director and UI/UX Designer from Sydney, Australia,
-              working in web development and print media. I enjoy turning
-              complex problems into simple, beautiful and intuitive designs.
+              A passionate frontend developer originally from Iraq and currently
+              based in Turkey. I hold a bachelor&apos;s degree in Mathematics,
+              which has equipped me with a strong foundation for problem-solving
+              and analytical thinking.
             </p>
             <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
-              My aim is to bring across your message and identity in the most
-              creative way. I created web design for many famous brand
-              companies.
+              I&apos;m passionate about creating user-friendly web interfaces
+              and enjoy collaborating with teams. Let&apos;s build something
+              amazing together!
             </p>
           </div>
         </div>
