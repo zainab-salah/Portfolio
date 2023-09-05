@@ -15,8 +15,7 @@ export default function About() {
             </p>
             <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
               I&apos;m passionate about creating user-friendly web interfaces
-              and enjoy collaborating with teams. Let&apos;s build something
-              amazing together!
+              and enjoy collaborating with teams.
             </p>
           </div>
         </div>

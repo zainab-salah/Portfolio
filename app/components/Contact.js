@@ -1,9 +1,10 @@
+
 import React from "react";
 
 export default function Contact() {
   return (
     <div className="lg:rounded-2xl bg-white dark:bg-[#111111]">
-      <div data-aos="fade" className="aos-init aos-animate">
+      {/* <div data-aos="fade" className="aos-init aos-animate">
         <div className="container mb-8 px-4 sm:px-5 md:px-10 lg:px-[60px]">
           <div className="pt-12">
             <h2 className="after-effect after:left-48 mt-12 lg:mt-0 mb-12 md:mb-[30px]">
@@ -14,22 +15,11 @@ export default function Contact() {
                 className="flex flex-wrap dark:bg-transparent p-[30px] border-[#A6A6A6] gap-2 rounded-xl "
                 style="background: rgb(252, 244, 255);"
               >
-                <span className="w-8 mt-2">
-                  <img
-                    alt="icon"
-                    srcset="/_next/image?url=%2Fimages%2Fcontact%2Fphone-call%201.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fimages%2Fcontact%2Fphone-call%201.png&amp;w=64&amp;q=75 2x"
-                    src="/_next/image?url=%2Fimages%2Fcontact%2Fphone-call%201.png&amp;w=64&amp;q=75"
-                    width="30"
-                    height="20"
-                    decoding="async"
-                    data-nimg="1"
-                    className="text-4xl dark:text-white"
-                    loading="lazy"
-                    style=""
-                  />
-                </span>
+                <span className="w-8 mt-2"></span>
                 <div className="space-y-2">
-                  <p className="text-xl font-semibold dark:text-white">Phone :</p>
+                  <p className="text-xl font-semibold dark:text-white">
+                    Phone :
+                  </p>
                   <p>
                     <a
                       href="tel:+452 666 386"
@@ -52,22 +42,11 @@ export default function Contact() {
                 className="flex flex-wrap dark:bg-transparent p-[30px] border-[#A6A6A6] gap-2 rounded-xl "
                 style="background: rgb(238, 251, 255);"
               >
-                <span className="w-8 mt-2">
-                  <img
-                    alt="icon"
-                    srcset="/_next/image?url=%2Fimages%2Fcontact%2Femail%201.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fimages%2Fcontact%2Femail%201.png&amp;w=64&amp;q=75 2x"
-                    src="/_next/image?url=%2Fimages%2Fcontact%2Femail%201.png&amp;w=64&amp;q=75"
-                    width="30"
-                    height="20"
-                    decoding="async"
-                    data-nimg="1"
-                    className="text-4xl dark:text-white"
-                    loading="lazy"
-                    style=""
-                  />
-                </span>
+                <span className="w-8 mt-2"></span>
                 <div className="space-y-2">
-                  <p className="text-xl font-semibold dark:text-white">Email :</p>
+                  <p className="text-xl font-semibold dark:text-white">
+                    Email :
+                  </p>
                   <p>
                     <a
                       href="mailto:ibthemes21@gmail.com"
@@ -156,23 +135,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-      </div>
-      <footer className="overflow-hidden rounded-b-2xl bg-slate-50 dark:bg-black">
-        <div className="container">
-          <p className="text-center py-6 text-gray-lite dark:text-color-910 ">
-            © 2023 All Rights Reserved by{" "}
-            <a
-              className="hover:text-[#FA5252] duration-300 transition"
-              href="https://themeforest.net/user/ib-themes"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ib-themes
-            </a>
-            .
-          </p>
-        </div>
-      </footer>
+      </div> */}
     </div>
   );
 }

@@ -1,17 +1,47 @@
 import React from "react";
-import Header from "./components/Header";
-import Image from "next/image";
-
-import Main from "./components/Main";
+import About from "./components/About";
+import Carousel from "./components/Carousel";
+import Resume from "./components/Resume";
+import Footer from "./components/Footer";
+import ThemeSw from "./components/ThemeSw";
+import LeftSide from "./components/LeftSide";
+import Edu from "./components/Edu";
+import Projects from "./components/Projects";
 export default function Home() {
   return (
-    <section
-      className="container
+    <>
+      <div className="flex"></div>
+      <div className="text-right flex justify-self-start">
+        {/* <ThemeSw /> */}
+      </div>
+      <section
+        className="container
   min-h-screen bg-no-repeat bg-center bg-cover bg-fixed   md:pb-16 w-full
     "
-    >
-      <Header />
-      <Main />
-    </section>
+      >
+        <div className="container grid grid-cols-12 md:gap-10 justify-between lg:mt-[220px]">
+          <LeftSide />
+
+          <div className="col-span-12 lg:col-span-8">
+            <div className="lg:rounded-2xl bg-white dark:bg-[#111111]">
+              <div data-aos="fade" className="aos-init aos-animate">
+                <About />
+                <section className="pb-12 px-2 sm:px-5 md:px-10 lg:px-14 ">
+                  <h2 className="after-effect after:left-60 left-">
+                    Work With
+                  </h2>
+
+                  <Carousel />
+                </section>
+                <Resume />
+                <Edu />
+                <Projects />
+              </div>
+              <Footer />
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
