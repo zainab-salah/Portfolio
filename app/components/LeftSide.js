@@ -178,7 +178,7 @@ const LeftSide = () => {
 
           <a
             href="../../public/cv.pdf"
-            download=""
+            download="cv"
             className="inline-flex items-center mx-auto bg-gradient-to-r from-[#FA5252] to-[#DD2476] duration-200 transition ease-linear hover:bg-gradient-to-l  px-8 py-3 text-lg text-white rounded-[35px] mt-6"
           >
             <Image src={download} alt="icon" className="mr-2" />
@@ -190,9 +190,4 @@ const LeftSide = () => {
   );
 };
 
-
-
- 
-
-
-export default LeftSide
+export default LeftSide;

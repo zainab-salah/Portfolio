@@ -104,3 +104,12 @@ body {
   color: rgb(255 255 255/var(--tw-text-opacity));
 }
 
+.p-img {
+  width: 100%;
+  transition: all 3s ease;
+
+}
+
+.p:hover .p-img {
+  transform: translateY(-80%);
+}

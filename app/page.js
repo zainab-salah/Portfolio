@@ -10,9 +10,10 @@ import Projects from "./components/Projects";
 export default function Home() {
   return (
     <>
-      <div className="flex"></div>
-      <div className="text-right flex justify-self-start">
-        {/* <ThemeSw /> */}
+      <div className="flex justify-between lg:pt-10 lg:pr-32 pt-5 pr-5">
+        <div />
+
+        <ThemeSw />
       </div>
       <section
         className="container

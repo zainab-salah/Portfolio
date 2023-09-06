@@ -8,8 +8,8 @@ const ThemeSw = () => {
   if (currentTheme === "dark") {
     return (
       <button
-        className="dark:bg-gray-600 p-2 hover:ring-2 hover:ring-gray-300 
-        bg-white w-[40px] text-white  h-[40px] rounded-full flex justify-center items-center
+        className="dark:bg-white p-2 hover:ring-2 hover:ring-gray-300 
+        bg-white w-[40px] text-gray-600  h-[40px] rounded-full flex justify-center items-center
            hover:bg-[#ef4060] transition-all duration-300 ease-in-out cursor-pointer ml-2"
         onClick={() => setTheme("light")}
       >
@@ -30,7 +30,7 @@ const ThemeSw = () => {
   } else {
     return (
       <button
-        className="bg-gray-200 p-2 rounded-full hover:ring-2 hover:ring-gray-300
+        className="bg-white p-2 rounded-full hover:ring-2 hover:ring-gray-300
         transition-all duration-300 ease-in-out cursor-pointer   h-[40px]  w-[40px] hover:text-white  flex justify-center items-center
         hover:bg-[#ef4060]  ml-2
         "
