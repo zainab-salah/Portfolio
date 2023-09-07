@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 const Projects = ({
   handleProjectClick,
@@ -21,11 +22,13 @@ const Projects = ({
                 onClick={() => handleProjectClick(project)}
                 className="relative overflow-hidden h-[200px] p"
               >
-                <img
+                <Image
                   width="200"
                   height="200"
                   src={project.img}
                   alt={project.name}
+                  unoptimized={true} 
+                  priority
                   className="object-cover object-top p-img rounded-lg"
                 />
               </div>

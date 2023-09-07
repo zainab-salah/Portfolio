@@ -2,6 +2,7 @@ import React from "react";
 import { FaCode, FaLink } from "react-icons/fa";
 import { PiGithubLogoBold } from "react-icons/pi";
 import { AiOutlineCloseCircle } from "react-icons/ai";
+import Image from "next/image";
 const ProjectDetail = ({ project, onClose }) => {
   return (
     <div
@@ -60,8 +61,10 @@ const ProjectDetail = ({ project, onClose }) => {
           </p>
 
           <p className="mt-4">{project.description}</p>
-          <img
+          <Image
             src={project.img}
+            height={200}
+            width={380}
             alt={project.name}
             className="w-full object-top h-[200px]  object-cover rounded-xl mt-6
           "
