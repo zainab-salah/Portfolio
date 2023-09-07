@@ -100,7 +100,7 @@ const projects = [
       "Promptopia is an open- source AI prompting tool designed for the modern world.With Promptopia, you can effortlessly discover, create, and share creative prompts",
     usedTools: "NextJS, NextAuth, MongoDB, Tailwind CSS ",
     img: "/promt.png",
-    link: "https://promptopia-next-js-full-stack-iwr1g7k4m-kainy01.vercel.app/",
+    link: "https://promptopia-next-js-full-stack.vercel.app/",
     linkG: "https://github.com/zainab-salah/Promptopia-NextJS-FullStack/",
   },
   {
