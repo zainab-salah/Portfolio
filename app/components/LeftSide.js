@@ -48,7 +48,7 @@ const LeftSide = () => {
               rel="noopener noreferrer"
             >
               <span className="socialbtn ">
-                <PiGithubLogoBold className=" cursor-pointer" />
+                <PiGithubLogoBold className="dark:text-black cursor-pointer" />
               </span>
             </a>
 

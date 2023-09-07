@@ -8,7 +8,7 @@ const ThemeSw = () => {
   if (currentTheme === "dark") {
     return (
       <button
-        className="dark:bg-white p-2 hover:ring-2 hover:ring-gray-300 
+        className="p-2 hover:ring-2 hover:ring-gray-300 
         bg-white w-[40px] text-gray-600  h-[40px] rounded-full flex justify-center items-center
            hover:bg-[#ef4060] transition-all duration-300 ease-in-out cursor-pointer ml-2"
         onClick={() => setTheme("light")}

@@ -9,7 +9,7 @@ export default function Resume() {
           <div className="pb-12">
             <h2 className="after-effect after:left-64 left-">Experience</h2>
             <div className=" mt-[30px]">
-              <div className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2 bg-blue-100">
+              <div className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-blue-100 dark:bg-transparent dark:border-2 bg-blue-100">
                 <span className="text-tiny text-gray-lite dark:text-[#b7b7b7]">
                   2022-on going
                 </span>
@@ -32,7 +32,7 @@ export default function Resume() {
                 </ul>
               </div>
 
-              <div className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2 bg-red-100">
+              <div className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-red-100 dark:bg-transparent dark:border-2 bg-red-100">
                 <span className="text-tiny text-gray-lite dark:text-[#b7b7b7]">
                   Feb 2021 - Dec 2022,
                 </span>

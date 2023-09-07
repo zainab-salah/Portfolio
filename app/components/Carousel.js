@@ -37,65 +37,68 @@ export default function Carousel() {
   }, [currentSlide]);
 
   return (
-    <div className="flex relative items-center mx-auto w-full justify-center">
-      <div className="">
-        <FaChevronLeft
-          onClick={handlePrevSlide}
-          className="absolute left-0 m-auto text-2xl inset-y-1/2 cursor-pointer text-[#F95054] z-20 transition-transform duration-300  "
-        />
-        <div className="w-full h-[100px] lg:h-[200px] flex overflow-hidden mx-auto transition-opacity duration-300">
-          <Swipe
-            onSwipeLeft={handleNextSlide}
-            onSwipeRight={handlePrevSlide}
-            className="z-10 w-full gap-5 lg:gap-32 h-full flex items-center xl:justify-between justify-center transition-transform duration-300"
-          >
-            {images.slice(currentSlide, currentSlide + 3).map((image) => {
-              return (
-                <div
-                  key={image.src}
-                  className="text-center flex flex-col items-center justify-between transform transition-transform ease-in-out hover:scale-105"
-                >
-                  <Image
-                 
-                    alt={image.alt}
-                    src={image}
-                  
-                    className="lg:w-[70px] transition-opacity duration-300 hover:opacity-75 "
+    <section className="pb-12 px-2 sm:px-5 md:px-10 lg:px-14 ">
+      <h2 className="after-effect after:left-60 left-">Work With</h2>
+
+      <div className="flex relative items-center mx-auto w-full justify-center">
+        <div className="">
+          <FaChevronLeft
+            onClick={handlePrevSlide}
+            className="absolute left-0 m-auto text-2xl inset-y-1/2 cursor-pointer text-[#F95054] z-20 transition-transform duration-300  "
+          />
+          <div className="w-full h-[100px] lg:h-[200px] flex overflow-hidden mx-auto transition-opacity duration-300">
+            <Swipe
+              onSwipeLeft={handleNextSlide}
+              onSwipeRight={handlePrevSlide}
+              className="z-10 w-full gap-5 lg:gap-32 h-full flex items-center xl:justify-between justify-center transition-transform duration-300"
+            >
+              {images.slice(currentSlide, currentSlide + 3).map((image) => {
+                return (
+                  <div
+                    key={image.src}
+                    className="text-center flex flex-col items-center justify-between transform transition-transform ease-in-out hover:scale-105"
+                  >
+                    <Image
+                      alt={image.alt}
+                      src={image}
+                      className="lg:w-[70px] transition-opacity duration-300 hover:opacity-75 "
+                    />
+                    <p className="text-center lg:w-full dark:text-black my-3 lpy-1 lg:px-2 rounded-full bg-slate-50 hover:bg-[#F95054] hover:text-white cursor-pointer transition-background duration-300">
+                      {image.alt}
+                    </p>
+                  </div>
+                );
+              })}
+            </Swipe>
+          </div>
+          <FaChevronRight
+            onClick={handleNextSlide}
+            className="absolute right-0 m-auto text-2xl inset-y-1/2 cursor-pointer text-[#F95054] z-20 transition-transform duration-300  "
+          />
+
+          <div className="relative justify-center p-2 lg:flex  hidden">
+            {Array.from({ length: Math.ceil(images.length / 3) }).map(
+              (_, index) => {
+                return (
+                  <div
+                    className={
+                      index === Math.floor(currentSlide / 3)
+                        ? "h-2 w-2 bg-[#F95054] rounded-full lg:mx-2 mx-1 mb-2 cursor-pointer transition-background duration-300"
+                        : "h-2 w-2 bg-gray-300 rounded-full lg:mx-2 mx-1 mb-2 cursor-pointer transition-background duration-300"
+                    }
+                    key={index}
+                    onClick={() => {
+                      setCurrentSlide(index * 3);
+                    }}
                   />
-                  <p className="text-center lg:w-full dark:text-black my-3 lpy-1 lg:px-2 rounded-full bg-slate-50 hover:bg-[#F95054] hover:text-white cursor-pointer transition-background duration-300">
-                    {image.alt}
-                  </p>
-                </div>
-              );
-            })}
-          </Swipe>
-        </div>
-        <FaChevronRight
-          onClick={handleNextSlide}
-          className="absolute right-0 m-auto text-2xl inset-y-1/2 cursor-pointer text-[#F95054] z-20 transition-transform duration-300  "
-        />
-  
-        <div className="relative justify-center p-2 lg:flex  hidden">
-          {Array.from({ length: Math.ceil(images.length / 3) }).map((_, index) => {
-            return (
-              <div
-                className={
-                  index === Math.floor(currentSlide / 3)
-                    ? "h-2 w-2 bg-[#F95054] rounded-full lg:mx-2 mx-1 mb-2 cursor-pointer transition-background duration-300"
-                    : "h-2 w-2 bg-gray-300 rounded-full lg:mx-2 mx-1 mb-2 cursor-pointer transition-background duration-300"
-                }
-                key={index}
-                onClick={() => {
-                  setCurrentSlide(index * 3);
-                }}
-              />
-            );
-          })}
+                );
+              }
+            )}
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
-  
 }
 
 const images = [
