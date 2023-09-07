@@ -56,17 +56,18 @@ export default function Carousel() {
                 return (
                   <div
                     key={image.src}
-                    className="text-center flex flex-col items-center justify-between transform transition-transform ease-in-out hover:scale-105"
+                    className="text-center flex flex-col items-center rounded-lg p-2 dark:bg-slate-50 justify-center
+                     transform transition-transform ease-in-out hover:scale-105"
                   >
                     <Image
                       alt={image.alt}
                       src={image}
-                   priority
+                      priority
                       className="lg:w-[70px] transition-opacity duration-300 hover:opacity-75 "
                     />
-                    <p className="text-center lg:w-full dark:text-black my-3 lpy-1 lg:px-2 rounded-full bg-slate-50 hover:bg-[#F95054] hover:text-white cursor-pointer transition-background duration-300">
+                    {/* <p className="text-center hidden xl:block  lg:w-full dark:text-black my-3 lpy-1 lg:px-2 rounded-full  hover:bg-[#F95054] hover:text-white cursor-pointer transition-background duration-300">
                       {image.alt}
-                    </p>
+                    </p> */}
                   </div>
                 );
               })}
@@ -212,11 +213,22 @@ const images = [
     width: "48",
     height: "48",
   },
-  // {
-  //   src: "https://img.icons8.com/fluency/48/null/visual-studio.png",
-  //   alt: "Visual Studio",
-  //   width: "48",
-  //   height: "48",
-
-  // },
+  {
+    src: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png",
+    alt: "Postman",
+    width: "48",
+    height: "48",
+  },
+  {
+    src: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-apache-a-free-and-open-source-cross-platform-web-server-software-logo-color-tal-revivo.png",
+    alt: "Apache2",
+    width: "48",
+    height: "48",
+  },
+  {
+    src: "https://img.icons8.com/ios-filled/50/000000/digitalocean.png",
+    alt: "DigitalOcean",
+    width: "48",
+    height: "48",
+  },
 ];
