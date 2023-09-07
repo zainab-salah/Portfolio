@@ -9,7 +9,7 @@ function Providers({ children }) {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 3000);
+    }, 1000);
   }, []);
   return <ThemeProvider attribute="class">
        {isLoading && <Loading />}{children}</ThemeProvider>;
