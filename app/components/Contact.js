@@ -80,7 +80,7 @@ export default function Contact() {
                   <p>
                     <a
                       href="mailto: zainab.salah.m@outlook.com"
-                      className="text-gray-lite text-lg dark:text-[#fff] "
+                      className="text-gray-lite text-lg dark:text-[#fff]  overflow-hidden"
                     >
                       zainab.salah.m@outlook.com
                     </a>

@@ -36,11 +36,10 @@ export default function Edu() {
               </a>
             ))}
           </div>
-          
         </div>
       </div>
     </div>
-  )
+  );
 }
 const courses = [
   {
@@ -55,7 +54,7 @@ const courses = [
     href: "https://shecodestooiq.com/",
     date: "Mar 2022 - Sep 2022",
     title: "SheCodesToo Bootcamp",
-    description: "WordPress and softskills",
+    description: "WordPress and Soft Skills",
     bgColor: "bg-pink-100 hover:bg-pink-200",
     borderColor: "dark:border-pink-100 ",
   },
@@ -64,7 +63,7 @@ const courses = [
     date: "2020",
     title: "Web Development Bootcamp",
     description:
-      "by Dr. Angela Yu full-stack web developer. HTML, CSS, Javascript, Node, React, MongoDB and more.",
+      "by Dr. Angela Yu fullStack web developer. HTML, CSS, Javascript, Node, React, MongoDB and more.",
     bgColor: "bg-purple-100 hover:bg-purple-200",
     borderColor: "dark:border-purple-100 ",
   },
@@ -76,4 +75,4 @@ const courses = [
     bgColor: "bg-lime-100 hover:bg-lime-200",
     borderColor: "dark:border-lime-100 ",
   },
-]
+];
