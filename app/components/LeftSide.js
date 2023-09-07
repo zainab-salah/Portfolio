@@ -178,8 +178,8 @@ const LeftSide = () => {
           </div>
 
           <a
-            href="../../public/cv.pdf"
-            download="cv"
+            href="https://drive.google.com/file/d/1pvIbchPTTQJJvY0NPBt0Ht8E873KZpjR/view?usp=sharing"
+            
             className="inline-flex items-center mx-auto bg-gradient-to-r from-[#FA5252] to-[#DD2476] duration-200 transition ease-linear hover:bg-gradient-to-l  px-8 py-3 text-lg text-white rounded-[35px] mt-6"
           >
             <Image src={download} alt="icon" className="mr-2" />
