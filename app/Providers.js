@@ -1,13 +1,18 @@
 "use client";
 import { ThemeProvider } from "next-themes";
-import React from "react";
- 
+import React, { useEffect, useState } from "react";
+import Loading from "./loading";
 
 
 function Providers({ children }) {
-
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 500);
+  }, []);
   return <ThemeProvider attribute="class">
-    {children}</ThemeProvider>;
+       {isLoading && <Loading />}{children}</ThemeProvider>;
 }
 
 export default Providers;
