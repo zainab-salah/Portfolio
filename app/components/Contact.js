@@ -47,14 +47,13 @@ export default function Contact() {
   };
   return (
     <div className="lg:rounded-2xl bg-white dark:bg-[#111111]">
-
       <div data-aos="fade" className="aos-init aos-animate">
         <div className="container mb-8 px-4 sm:px-5 md:px-10 lg:px-[60px]">
           <div className="pt-12">
             <h2 className="after-effect after:left-48 mt-12 lg:mt-0 mb-12 md:mb-[30px]">
               Contact
             </h2>
-            <div className="grid-cols-1 md:grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 mb-[40px] grid gap-x-5 gap-y-7">
+            <div className="grid-cols-1  lg:grid-cols-2 mb-[40px] grid gap-x-5 gap-y-7">
               <div className="flex flex-wrap dark:bg-transparent dark:border-green-500 dark:border-2 p-[30px] border-[#A6A6A6] gap-2 rounded-xl bg-[#FCF4FF]">
                 <span className="w-8 mt-2"></span>
                 <div className="space-y-2">
