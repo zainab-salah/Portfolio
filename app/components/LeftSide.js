@@ -28,7 +28,7 @@ const LeftSide = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="socialbtn text-[#E4405F]">
+              <span className="socialbtn dark:bg-[#1D1D1D] text-[#E4405F]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -47,8 +47,8 @@ const LeftSide = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="socialbtn ">
-                <PiGithubLogoBold className="dark:text-black cursor-pointer" />
+              <span className="socialbtn dark:bg-[#1D1D1D] ">
+                <PiGithubLogoBold className=" cursor-pointer" />
               </span>
             </a>
 
@@ -57,7 +57,7 @@ const LeftSide = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="socialbtn text-[#0072b1]">
+              <span className="socialbtn dark:bg-[#1D1D1D] text-[#0072b1]">
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
@@ -75,7 +75,7 @@ const LeftSide = () => {
 
           <div className="p-7 rounded-2xl mt-7 bg-[#F3F6F6] dark:bg-[#1D1D1D]">
             <div className="flex py-2.5 border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
-              <span className="flex-shrink-0 socialbtn www bg-white dark:bg-black text-[#E93B81] shadow-md">
+              <span className="flex-shrink-0 socialbtn dark:bg-black www bg-white text-[#E93B81] shadow-md">
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
@@ -103,7 +103,7 @@ const LeftSide = () => {
               </div>
             </div>
             <div className="flex py-2.5 border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
-              <span className="flex-shrink-0 socialbtn www bg-white dark:bg-black text-[#6AB5B9]  shadow-md">
+              <span className="flex-shrink-0 socialbtn dark:bg-black www bg-white  text-[#6AB5B9]  shadow-md">
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
@@ -125,7 +125,7 @@ const LeftSide = () => {
             </div>
 
             <div className="flex py-2.5 border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
-              <span className="flex-shrink-0 socialbtn www bg-white dark:bg-black text-[#FD7590] shadow-md">
+              <span className="flex-shrink-0 socialbtn dark:bg-black www bg-white   text-[#FD7590] shadow-md">
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
@@ -154,7 +154,7 @@ const LeftSide = () => {
               </div>
             </div>
             <div className="flex py-2.5 undefined">
-              <span className="flex-shrink-0 socialbtn www bg-white dark:bg-black text-[#C17CEB] shadow-md">
+              <span className="flex-shrink-0 socialbtn dark:bg-black www bg-white   text-[#C17CEB] shadow-md">
                 <svg
                   stroke="currentColor"
                   fill="currentColor"

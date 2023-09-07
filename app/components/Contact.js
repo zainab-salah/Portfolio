@@ -92,7 +92,7 @@ export default function Contact() {
             <div className="  dark:border-[#5dbcdc] dark:border-2 mb-16   md:p-[48px]  p-4   bg-color-810 rounded-xl dark:bg-[#111111]  md:mb-[60px]">
               <h3 className="text-3xl ">
                 <span className="text-gray-lite dark:text-[#fff] ">
-                  I'm always open to discuss about projects!
+                  I&apos;m always open to discuss about projects!
                 </span>
               </h3>
               <form onSubmit={sendEmail}>
