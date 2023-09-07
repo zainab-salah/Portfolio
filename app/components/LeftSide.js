@@ -13,6 +13,7 @@ const LeftSide = () => {
           src={user}
           width={240}
           height={240}
+          priority
           className="w-[240px] absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px]"
         />
         <div className="pt-[100px] pb-8">

@@ -1,6 +1,6 @@
 import React from "react";
 
-import Work from "./Edu";
+
 
 export default function Resume() {
   return (

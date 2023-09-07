@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState } from "react";
 import About from "./components/About";
 import Carousel from "./components/Carousel";
@@ -50,9 +49,7 @@ export default function Home() {
             <div className="lg:rounded-2xl bg-white dark:bg-[#111111]">
               <div data-aos="fade" className="aos-init aos-animate">
                 <About />
-
                 <Carousel />
-
                 <Resume />
                 <Edu />
                 <Projects
