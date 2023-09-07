@@ -61,6 +61,7 @@ export default function Carousel() {
                     <Image
                       alt={image.alt}
                       src={image}
+                   priority
                       className="lg:w-[70px] transition-opacity duration-300 hover:opacity-75 "
                     />
                     <p className="text-center lg:w-full dark:text-black my-3 lpy-1 lg:px-2 rounded-full bg-slate-50 hover:bg-[#F95054] hover:text-white cursor-pointer transition-background duration-300">
