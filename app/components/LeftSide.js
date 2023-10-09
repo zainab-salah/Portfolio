@@ -178,7 +178,7 @@ const LeftSide = () => {
           </div>
 
           <a
-            href="https://drive.google.com/file/d/1aY8l1W2FXhl7yVwsgctVJFKgytMwrQjP/view?usp=sharing"
+            href="https://drive.google.com/file/d/1uwiXrTnfpf-oWzwgArieqpnH0zESsyUH/view?usp=sharing"
             className="inline-flex items-center mx-auto bg-gradient-to-r from-[#FA5252] to-[#DD2476] duration-200 transition ease-linear hover:bg-gradient-to-l  px-8 py-3 text-lg text-white rounded-[35px] mt-6"
           >
             <Image src={download} alt="icon" className="mr-2" />
